@@ -1,0 +1,154 @@
+body {
+    margin: 0px;
+    width: 430px;
+    height: 1080px;
+}
+
+.main_bg {
+    background-image: url(메인배경.jpg);
+    background-position: center;
+    height: 783px;
+}
+
+.logo {
+    margin-left: 5px;
+}
+
+.menu_icon {
+    float: right;
+    padding: 15px;
+}
+
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+.button>button {
+    border: #eee;
+    border-radius: 20px;
+    width: 60px;
+    height: 60px;
+    color: #eee;
+    position: fixed;
+    left: 300px;
+    top: 580px;
+    background-image: url(logo.png);
+    background-size: contain;
+    background-position: center;
+    box-shadow: 1px 2px #999;
+}
+
+.QnA {
+    box-shadow: 3px 4px #999;
+    background-image: linear-gradient(to bottom, #eee, rgb(197, 157, 163));
+    color: #3d3d3d;
+    position: fixed;
+    left: 33px;
+    width: 330px;
+    padding: 25px;
+    bottom: 367px;
+    border-radius: 30px;
+}
+.profile{
+    display: flex;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.QnA>div {
+    border-radius: 25px;
+}
+
+.QnA>div>div{
+    display: flex;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.profile img {
+    background-color: rgb(28, 10, 10);
+    height:50px;
+    width: 50px;
+    border-radius: 50px;
+}
+.profile p {
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.QnA>div>button{
+    display: flex;
+    font-size: 17px;
+    margin-left: 15px;
+    background-color: #eee;
+    border-radius: 10px;
+    border: #eee;
+    font-weight: bold;
+    width: 300px;
+    justify-content: center;
+}
+
+.하단{
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.하단 p{
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.약관 {
+    padding: 24px;
+    text-align: center;
+    color: #3d3d3d;
+}
+
+.sns_icon {
+    display: flex;
+    justify-content: center;
+}
+
+.sns_icon>div {
+    width: 30px;
+    height: 30px;
+}
+
+
+.fixed_nav {
+    border-top: 0.1px solid #e2e2e2;
+    padding: 17px 36px;
+    width: 430px;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    opacity: 90%;
+}
